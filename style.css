@@ -6,7 +6,7 @@
     --content-description-font-size: 20px;
     --content-description-line-height: 25px;
     --theme-background: #f7f7f7;
-    --theme-highlight: #0000ff;
+    --theme-highlight: #04aa6d;
     --theme-secondary-background: #ffffff;
 }
 
@@ -23,36 +23,37 @@ p {
 
 
 .topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color: var(--theme-background);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    display: block;
+    color: var(--theme-background);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: var(--theme-background);
-  color: black;
+    background-color: var(--theme-background);
+    color: black;
 }
 
 .topnav a.active {
-  background-color: var(--theme-highlight);
-  color: white;
+    background-color: var(--theme-highlight);
+    color: white;
 }
 
 .topnav .icon {
-  display: none;
+    display: none;
+    color: var(--theme-highlight);
 }
 
 
@@ -297,8 +298,9 @@ main, footer {
     }
     
     .topnav.responsive {
-        position: fixed;
+        position: relative;
     }
+
     .topnav.responsive .icon {
         position: fixed;
         right: 0;
